@@ -4,6 +4,7 @@ What is spring security?
 =>Spring Security is a powerful framework within the Spring Framework that provides authentication, authorization, and protection against common security vulnerabilities in Java applications.
 
 Key Features of Spring Security:
+
 1.Authentication - Verifies the identity of users (e.g., username and password).
 2.Authorization - Determines what actions or resources a user is allowed to access based on roles or permissions.
 3.Session Management - Handles user sessions securely, preventing session hijacking.
@@ -18,6 +19,7 @@ Key Features of Spring Security:
 .Simplifies security integration in microservices and cloud-native applications
 
 Example Use Case
+
 Imagine a banking application that requires:
 
 Login with username and password
