@@ -41,3 +41,41 @@ Protection against CSRF and XSS attacks
 
 Spring Security can handle all these requirements efficiently with minimal custom code.
 
+
+Different Between Jwt and Oauth?
+
+💕Oauth:
+
+1.An authorization framework used for delegated access to resources without sharing credentials.
+
+2.Suitable for third-party logins (e.g., "Sign in with Google").
+
+3.Can use JWT or opaque tokens for access.
+
+4.Stateful—requires a central server to validate tokens.
+
+5.Supports scopes to limit access permissions.
+
+6.Ideal for access control in distributed systems.
+
+7.Tokens can be revoked or invalidated by the server.
+
+8.More complex setup with multi-step authorization flows.
+
+❤️JWT:
+
+1.A token format used for authentication and data exchange between parties.
+
+2.Stateless—does not require a central server for validation.
+
+3.Contains claims (user data, roles, expiration) inside the token.
+
+4.Tokens are self-contained and can be validated locally.
+
+5.Cannot be revoked once issued, relying instead on short expiration times.
+
+6.Simpler and faster for microservices and API-to-API communication.
+
+7.Best suited for authentication in systems that do not need session storage.
+
+Summary: OAuth is an authorization framework, and JWT is a data format often used within OAuth or independently for authentication and stateless communication
